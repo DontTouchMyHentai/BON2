@@ -28,9 +28,12 @@ import com.github.parker8283.bon2.util.BONUtils;
 import com.google.common.collect.Lists;
 
 public class GuiDownloadNew extends JFrame {
-    
-    private static final String MAPPINGS_URL_SNAPSHOT = "http://export.mcpbot.bspk.rs/mcp_snapshot/%1$s-%2$s/mcp_snapshot-%1$s-%2$s.zip";
-    private static final String MAPPINGS_URL_STABLE = "http://export.mcpbot.bspk.rs/mcp_stable/%1$s-%2$s/mcp_stable-%1$s-%2$s.zip";
+
+    //mcpbot no longer functions. different url is provide
+    //http://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp/<version>/mcp-<version>-srg.zip
+    //http://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp/1.12.2/mcp-1.12.2-srg.zip 
+    private static final String MAPPINGS_URL_SNAPSHOT = "hhttp://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp/1.12.2/mcp-1.12.2-srg.zip";
+    private static final String MAPPINGS_URL_STABLE = "http://files.minecraftforge.net/maven/de/oceanlabs/mcp/mcp/1.12.2/mcp-1.12.2-srg.zip";
     
     private static class MappingListEntry {
         public final boolean stable;
